@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640">
+<rect width="960" height="640" rx="16" fill="#0b1220"/>
+<text x="20" y="24" fill="#e8eef7" font-family="sans-serif" font-size="16" font-weight="700">People Analytics Warehouse — Before / After</text>
+<rect x="10" y="40" width="940" height="280" rx="14" fill="#0f1a2e" stroke="#d97706" stroke-width="2"/>
+<g><title>Before: spreadsheets and silos, with history overwritten and no access controls.</title><rect x="10" y="40" width="940" height="34" rx="14" fill="#d97706"/><text x="24" y="63" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="700">BEFORE</text></g>
+<g><title>Headcount and attrition tracked in spreadsheets, so numbers differ by who counted.</title>
+<rect x="121" y="103" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="173" cy="127" r="18" fill="#5b6b82"/><text x="173" y="132" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">XL</text>
+<text x="173" y="159" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">HR spreadsheets</text>
+</g>
+<text x="173" y="183" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">manual</text>
+<g><title>HR data siloed across systems, so lifecycle questions need manual joins.</title>
+<rect x="428" y="103" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="480" cy="127" r="18" fill="#5b6b82"/><text x="480" y="132" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">S</text>
+<text x="480" y="159" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">Siloed HR systems</text>
+</g>
+<text x="480" y="183" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">no joins</text>
+<g><title>Changes overwrite the old value, so history is lost and trends cannot be trusted.</title>
+<rect x="734" y="103" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="786" cy="127" r="18" fill="#5b6b82"/><text x="786" y="132" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">!</text>
+<text x="786" y="159" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">Overwrites</text>
+</g>
+<text x="786" y="183" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">no history</text>
+<g><title>Sensitive HR fields open to everyone, so privacy depends on trust alone.</title>
+<rect x="198" y="213" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="250" cy="237" r="18" fill="#5b6b82"/><text x="250" y="242" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">AC</text>
+<text x="250" y="269" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">No access controls</text>
+</g>
+<text x="250" y="293" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">open</text>
+<g><title>Reports built one-off by hand, so the same question gets different answers.</title>
+<rect x="658" y="213" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="710" cy="237" r="18" fill="#5b6b82"/><text x="710" y="242" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">R</text>
+<text x="710" y="269" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">Ad-hoc reports</text>
+</g>
+<text x="710" y="293" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">one-off</text>
+<line x1="173" y1="135" x2="480" y2="135" stroke="#d97706" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="480,135 472,131 472,139" fill="#d97706"/>
+<line x1="480" y1="135" x2="786" y2="135" stroke="#d97706" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="786,135 778,131 778,139" fill="#d97706"/>
+<line x1="786" y1="135" x2="250" y2="245" stroke="#d97706" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="250,245 242,241 242,249" fill="#d97706"/>
+<line x1="250" y1="245" x2="710" y2="245" stroke="#d97706" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="710,245 702,241 702,249" fill="#d97706"/>
+<circle r="6" fill="#ff9900"><animateMotion dur="6s" repeatCount="indefinite" path="M173,135 L480,135 L786,135 L250,245 L710,245"/></circle>
+<rect x="10" y="340" width="940" height="280" rx="14" fill="#0f1a2e" stroke="#0d9488" stroke-width="2"/>
+<g><title>After: governed SCD2 warehouse with history, access controls, and trusted workforce reporting.</title><rect x="10" y="340" width="940" height="34" rx="14" fill="#0d9488"/><text x="24" y="363" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="700">AFTER</text></g>
+<g><title>Employee lifecycle and HR operational data as the governed source.</title>
+<rect x="83" y="403" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="135" cy="427" r="18" fill="#2F81F7"/><text x="135" y="432" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">HR</text>
+<text x="135" y="459" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">HR lifecycle sources</text>
+</g>
+<text x="135" y="483" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">synthetic</text>
+<g><title>Data loaded and cleaned into the warehouse, so downstream models start clean.</title>
+<rect x="313" y="403" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="365" cy="427" r="18" fill="#8C4FFF"/><text x="365" y="432" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">IN</text>
+<text x="365" y="459" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">Ingestion</text>
+</g>
+<text x="365" y="483" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">load + clean</text>
+<g><title>Raw layer kept immutable, so any curated table can be rebuilt from source.</title>
+<rect x="543" y="403" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="595" cy="427" r="18" fill="#0d9488"/><text x="595" y="432" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">BZ</text>
+<text x="595" y="459" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">Bronze raw</text>
+</g>
+<text x="595" y="483" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">immutable</text>
+<g><title>Employee dimension with SCD Type 2, so department and manager changes keep history.</title>
+<rect x="773" y="403" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="825" cy="427" r="18" fill="#E25A1C"/><text x="825" y="432" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">D2</text>
+<text x="825" y="459" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">dim_employee SCD2</text>
+</g>
+<text x="825" y="483" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">history kept</text>
+<g><title>Monthly fact with headcount, joins, exits and attrition rate.</title>
+<rect x="83" y="513" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="135" cy="537" r="18" fill="#FF9900"/><text x="135" y="542" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">F</text>
+<text x="135" y="569" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">fact_employee_month</text>
+</g>
+<text x="135" y="593" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">headcount</text>
+<g><title>Attrition and churn metrics by performance tier and risk, so high-risk segments are flagged early.</title>
+<rect x="313" y="513" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="365" cy="537" r="18" fill="#01A88D"/><text x="365" y="542" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">M</text>
+<text x="365" y="569" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">Attrition metrics</text>
+</g>
+<text x="365" y="593" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">by tier</text>
+<g><title>Row-level access by org and column masking for sensitive fields, so privacy is enforced.</title>
+<rect x="543" y="513" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="595" cy="537" r="18" fill="#b91c1c"/><text x="595" y="542" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">AC</text>
+<text x="595" y="569" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">Row + column controls</text>
+</g>
+<text x="595" y="593" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">governed</text>
+<g><title>Headcount and workforce reporting on governed data, so leaders see one version of the truth.</title>
+<rect x="773" y="513" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="825" cy="537" r="18" fill="#5b6b82"/><text x="825" y="542" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">BI</text>
+<text x="825" y="569" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">Workforce reports</text>
+</g>
+<text x="825" y="593" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">dashboards</text>
+<line x1="135" y1="435" x2="365" y2="435" stroke="#0d9488" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="365,435 357,431 357,439" fill="#0d9488"/>
+<line x1="365" y1="435" x2="595" y2="435" stroke="#0d9488" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="595,435 587,431 587,439" fill="#0d9488"/>
+<line x1="595" y1="435" x2="825" y2="435" stroke="#0d9488" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="825,435 817,431 817,439" fill="#0d9488"/>
+<line x1="825" y1="435" x2="135" y2="545" stroke="#0d9488" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="135,545 127,541 127,549" fill="#0d9488"/>
+<line x1="135" y1="545" x2="365" y2="545" stroke="#0d9488" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="365,545 357,541 357,549" fill="#0d9488"/>
+<line x1="365" y1="545" x2="595" y2="545" stroke="#0d9488" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="595,545 587,541 587,549" fill="#0d9488"/>
+<line x1="595" y1="545" x2="825" y2="545" stroke="#0d9488" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="825,545 817,541 817,549" fill="#0d9488"/>
+<circle r="6" fill="#ff9900"><animateMotion dur="6s" repeatCount="indefinite" path="M135,435 L365,435 L595,435 L825,435 L135,545 L365,545 L595,545 L825,545"/></circle>
+</svg>

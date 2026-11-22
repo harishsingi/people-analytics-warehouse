@@ -16,3 +16,9 @@ python -m pytest tests/ -q
 - `dim_employee` (SCD2: history preserved on department / manager change)
 - `fact_employee_month` (headcount, joins, exits, attrition rate)
 - Access model documented in `docs/access_controls.md`: row level by org, column masking for sensitive fields
+
+## Architecture — Before / After
+
+Hover any component to see what it is and why it is needed.
+
+![Before / After architecture](docs/before-after-elaborated.svg)
