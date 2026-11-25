@@ -1,11 +1,19 @@
 [build-system]
 requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
+
 [project]
 name = "people-analytics-warehouse"
-version = "0.1.0"
-description = "People analytics dimensional warehouse"
+version = "0.2.0"
+description = "People analytics dimensional warehouse (synthetic data, SCD2 dims, attrition metrics)"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = ["PyYAML>=6"]
+
 [project.optional-dependencies]
 dev = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

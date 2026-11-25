@@ -1,0 +1,18 @@
+# People Analytics Warehouse — defaults.
+# All values are synthetic-demo settings. No credentials, no real
+# company data, no absolute paths: paths resolve relative to the repo root.
+seed: 3
+employee_count: 500
+departments:
+  - Eng
+  - Sales
+  - Ops
+  - Finance
+exit_probability: 0.14
+max_tenure_months: 120
+db_filename: people.db
+# SCD2 tracked attributes: a change to any of these closes the current
+# dim_employee row and opens a new one.
+scd2_tracked_attributes:
+  - department
+  - manager_id
